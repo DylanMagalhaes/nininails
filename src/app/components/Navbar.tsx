@@ -11,15 +11,15 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white shadow-md fixed w-full z-10">
+    <nav className="font-sans w-full flex items-center justify-between bg-fuchsia-100 bg-opacity-90 p-4 md:px-32 sticky top-0 py-2 transition-colors duration-300 z-50 text-base sm:text-xl ">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         {/* Logo */}
-        <div className="text-2xl font-bold text-gray-800">
+        <div className="text-3xl font-bold text-gray-800">
           <Link href="/">Nini Nails</Link>
         </div>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex space-x-6">
+        <div className="hidden md:flex space-x-6 font-bold text-2xl">
           <Link className="text-gray-600 hover:text-gray-900" href="#services">
             Prestations
           </Link>
@@ -61,25 +61,29 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden">
-          <Link href="#services">
-            <a className="block px-4 py-2 text-gray-600 hover:text-gray-900">
-              Services
-            </a>
+          <Link
+            className="block px-4 py-2 text-gray-600 hover:text-gray-900"
+            href="#services"
+          >
+            Prestations
           </Link>
-          <Link href="#about">
-            <a className="block px-4 py-2 text-gray-600 hover:text-gray-900">
-              À Propos
-            </a>
+          <Link
+            className="block px-4 py-2 text-gray-600 hover:text-gray-900"
+            href="#about"
+          >
+            À Propos
           </Link>
-          <Link href="#booking">
-            <a className="block px-4 py-2 text-gray-600 hover:text-gray-900">
-              Réservation
-            </a>
+          <Link
+            className="block px-4 py-2 text-gray-600 hover:text-gray-900"
+            href="#booking"
+          >
+            Réservation
           </Link>
-          <Link href="#contact">
-            <a className="block px-4 py-2 text-gray-600 hover:text-gray-900">
-              Contact
-            </a>
+          <Link
+            className="block px-4 py-2 text-gray-600 hover:text-gray-900"
+            href="#contact"
+          >
+            Contact
           </Link>
         </div>
       )}

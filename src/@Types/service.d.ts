@@ -5,7 +5,7 @@ export interface Service {
   images: Image[];
 }
 
-interface Image {
+export interface Image {
   src: string;
   alt: string;
 }

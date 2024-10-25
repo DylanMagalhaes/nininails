@@ -60,7 +60,7 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
           <button
             key={index}
             className={`w-3 h-3 rounded-full ${
-              index === currentIndex ? "bg-blue-500" : "bg-gray-300"
+              index === currentIndex ? "bg-fuchsia-300" : "bg-gray-300"
             }`}
             onClick={() => goToSlide(index)}
             aria-label={`Slide ${index + 1}`}

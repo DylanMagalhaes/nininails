@@ -12,6 +12,10 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        sans: ["Dancing Script", "cursive"],
+        display: ["Kavivanar", "sans-serif"],
+      },
     },
   },
   plugins: [],

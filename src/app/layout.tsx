@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import React from "react";
-import Navbar from "./components/navbar/Navbar";
+import Navbar from "./components/Navbar";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -27,6 +27,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
+      <head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Kavivanar&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

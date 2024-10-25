@@ -1,5 +1,5 @@
 import React from "react";
-import Carousel from "../carousel/Carousel";
+import Carousel from "./Carousel";
 import { Service } from "@/@Types/service";
 
 interface ServicesSectionProps {
@@ -10,11 +10,11 @@ const ServicesSection: React.FC<ServicesSectionProps> = ({ services }) => {
   return (
     <section className="py-16 bg-white">
       <div className="container mx-auto text-center">
-        <h2 className="text-4xl font-semibold mb-12 text-gray-800 tracking-wide">
+        <h2 className="text-4xl font-semibold mb-12 text-gray-800 tracking-wide font-sans">
           Nos Prestations
         </h2>
 
-        <div className="mb-12 text-gray-700 max-w-3xl mx-auto">
+        <div className="mb-12 text-gray-700 max-w-3xl mx-auto font-display text-left">
           <p className="text-lg mb-4">
             Vous avez du mal à comprendre nos tarifs ? Pas de soucis, je suis là
             pour vous aider ! Chaque pose étant unique, je vous propose des
@@ -26,8 +26,9 @@ const ServicesSection: React.FC<ServicesSectionProps> = ({ services }) => {
             À noter : <br />
             - Pour une dépose réalisée par mes soins, un supplément de 5€ est à
             prévoir.
-            <br />- Pour une dépose d'une pose qui n'a pas été réalisée par moi,
-            le supplément peut varier entre 10€ et 15€, selon la complexité.
+            <br />- Pour une dépose d&apos;une pose qui n&apos;a pas été
+            réalisée par moi, le supplément peut varier entre 10€ et 15€, selon
+            la complexité.
           </p>
         </div>
 
@@ -47,13 +48,15 @@ const ServicesSection: React.FC<ServicesSectionProps> = ({ services }) => {
 
               {/* Détails du service */}
               <div className="w-full md:w-1/2 text-left px-6">
-                <h3 className="text-3xl font-medium mb-4 text-gray-900">
+                <h3 className="text-4xl font-medium mb-4 text-gray-900 font-sans">
                   {service.name}
                 </h3>
-                <p className="text-2xl text-gray-700 font-light mb-4">
+                <p className="text-2xl text-gray-700 font-light mb-4 font-display">
                   {service.price}
                 </p>
-                <p className="text-md text-gray-600">{service.description}</p>
+                <p className="text-lg text-gray-600 font-display">
+                  {service.description}
+                </p>
               </div>
             </div>
 
