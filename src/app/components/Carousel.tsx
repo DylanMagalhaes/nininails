@@ -48,7 +48,7 @@ const Carousel: React.FC<CarouselProps> = ({ images }) => {
             <img
               src={image.src}
               alt={image.alt}
-              className="absolute block w-full h-full object-cover"
+              className="absolute block w-full h-full object-cover transform"
             />
           </div>
         ))}

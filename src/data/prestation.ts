@@ -7,36 +7,12 @@ export const services: Service[] = [
     description: "French, dégradés, aura (babyboomer, couleur).",
     images: [
       {
-        src: "https://via.placeholder.com/500x300?text=Image+1",
+        src: "images/pose-simple1.png",
         alt: "Image 1",
       },
       {
-        src: "https://via.placeholder.com/500x300?text=Image+2",
+        src: "images/pose-simple2.png",
         alt: "Image 2",
-      },
-      {
-        src: "https://via.placeholder.com/500x300?text=Image+3",
-        alt: "Image 3",
-      },
-    ],
-  },
-  {
-    name: "Couleur unie",
-    price: "50€",
-    description:
-      "Sauf: french chrome ou plusieurs couleurs, +5€ pour autres options (Hailey Bieber, chrome).",
-    images: [
-      {
-        src: "https://via.placeholder.com/500x300?text=Image+1",
-        alt: "Image 1",
-      },
-      {
-        src: "https://via.placeholder.com/500x300?text=Image+2",
-        alt: "Image 2",
-      },
-      {
-        src: "https://via.placeholder.com/500x300?text=Image+3",
-        alt: "Image 3",
       },
     ],
   },
@@ -47,16 +23,12 @@ export const services: Service[] = [
       "French, dégradés, aura (babyboomer, couleur) + plusieurs bijoux, du chrome ou un mélange (ex: aura+french, french chrome).",
     images: [
       {
-        src: "https://via.placeholder.com/500x300?text=Image+1",
+        src: "images/nails-art1-1.png",
         alt: "Image 1",
       },
       {
-        src: "https://via.placeholder.com/500x300?text=Image+2",
+        src: "images/nails-art1-2.png",
         alt: "Image 2",
-      },
-      {
-        src: "https://via.placeholder.com/500x300?text=Image+3",
-        alt: "Image 3",
       },
     ],
   },
@@ -67,16 +39,12 @@ export const services: Service[] = [
       "Mélange de plusieurs nail art (french, chrome, dégradés, bijoux) ou un nail art compliqué avec beaucoup de détails.",
     images: [
       {
-        src: "https://via.placeholder.com/500x300?text=Image+1",
+        src: "images/nails-art2-1.png",
         alt: "Image 1",
       },
       {
-        src: "https://via.placeholder.com/500x300?text=Image+2",
+        src: "images/nails-art2-2.png",
         alt: "Image 2",
-      },
-      {
-        src: "https://via.placeholder.com/500x300?text=Image+3",
-        alt: "Image 3",
       },
     ],
   },
@@ -87,15 +55,15 @@ export const services: Service[] = [
       "Les dessins plus complexes: personnages de dessins animés, ou des freestyles à partir de pochettes d’albums ou tableaux.",
     images: [
       {
-        src: "https://via.placeholder.com/500x300?text=Image+1",
+        src: "images/nails-art3-1.png",
         alt: "Image 1",
       },
       {
-        src: "https://via.placeholder.com/500x300?text=Image+2",
+        src: "images/nails-art3-2.png",
         alt: "Image 2",
       },
       {
-        src: "https://via.placeholder.com/500x300?text=Image+3",
+        src: "images/nails-art3-3.png",
         alt: "Image 3",
       },
     ],
