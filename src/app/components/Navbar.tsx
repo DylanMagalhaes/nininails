@@ -23,7 +23,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         {/* Logo */}
         <div className="text-3xl font-bold text-gray-800">
-          <Link href="/">Nini Nails</Link>
+          <Link href="/">Nini Nails 75</Link>
         </div>
 
         {/* Desktop Menu */}

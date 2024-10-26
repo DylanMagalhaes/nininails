@@ -29,7 +29,9 @@ const Footer: React.FC = () => {
 
         {/* Réseaux Sociaux */}
         <div className="text-center">
-          <h3 className="text-4xl mb-4 font-sans font-extrabold">Nini nails</h3>
+          <h3 className="text-4xl mb-4 font-sans font-extrabold">
+            Nini Nails 75
+          </h3>
           <p className="mb-4 font-display">
             Retrouvez-nous sur nos réseaux sociaux...
           </p>
