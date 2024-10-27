@@ -14,7 +14,7 @@ const GoogleReviews = () => {
   }, []);
 
   return (
-    <section id="avis" className="p-6 bg-fuchsia-100 rounded-md shadow-md">
+    <section id="avis" className="p-6 bg-indigo-50 rounded-md shadow-md">
       <h2 className="text-4xl text-center text-black font-bold mb-4 font-sans">
         Avis Google
       </h2>

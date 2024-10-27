@@ -10,7 +10,7 @@ const ContactCard = (props: {
   return (
     <Link
       href={props.url}
-      className="p-4 bg-fuchsia-100 shadow-lg rounded-xl flex items-center justify-between w-full gap-4 hover:bg-fuchsia-200 transition-all group"
+      className="p-4 bg-white shadow-lg rounded-xl flex items-center justify-between w-full gap-4 hover:bg-fuchsia-200 transition-all group"
     >
       <div className="flex items-center gap-4">
         <div className="relative">

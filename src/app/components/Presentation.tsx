@@ -14,7 +14,7 @@ const Presentation = () => {
 
       <div className="flex flex-col sm:flex-row gap-4 justify-start motion-preset-slide-right motion-delay-[800ms]">
         <Link
-          href="/register"
+          href="https://calendly.com/magalhaes-dylan"
           className="flex items-center bg-fuchsia-200 text-black font-bold px-3 sm:px-3 py-3 rounded-2xl hover:scale-110 ease-out duration-300"
         >
           <p className="mr-4 font-bold font-display">Réservation</p>
